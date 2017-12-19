@@ -1,4 +1,4 @@
-#mqtt-servo-rpi
+#mqtt-servo-rpi  
 This project deals with controlling a servomotor connected to RPi board remotelty using the Mosquitto broker.The servomotor is controlled using an online IOT platform.For this project,Thingsboard dashboard(demo.thingsboard.io) is used.
 
 #Code Details  
