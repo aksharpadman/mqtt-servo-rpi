@@ -1,7 +1,7 @@
 #mqtt-servo-rpi
 This project deals with controlling a servomotor connected to RPi board remotelty using the Mosquitto broker.The servomotor is controlled using an online IOT platform.For this project,Thingsboard dashboard(demo.thingsboard.io) is used.
 
-#Code Details
+#Code Details  
 -Mosquitto client for Python is  Paho-mqtt client library.This library is imported initially.  
 -The messages sent in Mosquitto broker through Thingsboard is in JavaScript Object Notation format(json).Hence to decode the messages the json library is imported.  
 -The servomotor is controlled via the RPi GPIO pins.Hence,the RPi.GPIO library is imported.  
